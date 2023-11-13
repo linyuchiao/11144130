@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #cdb4db;
+    margin: 0px;
+}
+
+header {
+    background-color: #be95c4;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+}
+
+nav {
+    background-color: #dee2ff;
+    font-family: Arial;
+    text-align: center;
+}
+
+nav a {
+    padding: 14px 16px;
+    color: purple;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #be95c4;
+    color: black;
+}
+
+footer {
+    background-color: #be95c4;
+    color: #cdb4db;
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+    aspect-ratio: 1 / 1;
+    width: 300px;
+    /* 也可以換成任何你想要的寬度 */
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.card {
+    background-color: #feeafa;
+    border-radius: 10px;
+    margin: 30px 60px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+.card>h2 {
+    text-align: center;
+}
+
+.right {
+    float: right;
+    padding-right: 300px;
+    font-size: larger;
+}
+
+.skill {
+    background-color: aqua;
+    width: 250px;
+}
+
+.skill-box {
+    background-color: aquamarine;
+}
+
+.array {
+    width: 1080px;
+    display: flex;
+}
+
+.item exp-img {
+    width: 100%;
+}
+
+.item {
+    width: 500px;
+    padding: 0px 5px;
+}

@@ -16,7 +16,7 @@ header {
 }
 
 nav {
-    background-color: #dee2ff;
+    background-color: #f1e1fa;
     font-family: Arial;
     text-align: center;
 }
@@ -29,7 +29,7 @@ nav a {
 
 nav a:hover {
     background-color: #be95c4;
-    color: black;
+    color: white;
 }
 
 footer {
@@ -52,19 +52,43 @@ img {
     background-color: #feeafa;
     border-radius: 10px;
     margin: 30px 60px;
-    padding-top: 10px;
-    padding-left: 50px;
-    padding-bottom: 20px;
+    padding: 10px 40px;
 }
 
-.card>h2 {
+h2 {
     text-align: center;
 }
 
-.right {
-    float: right;
-    padding-right: 300px;
+.me {
+    display: flex;
+    padding: 0px 40px;
+}
+
+.personal_1 {
+    padding: 0px 40px 20px 40px;
+}
+
+.personal_2 {
+    padding: 20px 0px 20px 40px;
+
+}
+
+.mail>a>img {
+    width: 5%;
+    /* 設定圖片寬度為原尺寸的50% */
+    height: auto;
+}
+
+.mylist {
+    background-color: #be95c4;
+    border-radius: 20px;
+    padding: 50px;
     font-size: larger;
+}
+
+
+.allskill {
+    padding: 0px 420px 15px;
 }
 
 .skill {
@@ -87,5 +111,21 @@ img {
 
 .item {
     width: 500px;
-    padding: 0px 5px;
+    padding: 0px 20px;
+}
+
+.card>.title>h2 {
+    text-align: center;
+}
+
+.txt {
+    text-align: center;
+}
+
+.txt_1 {
+    width: 300px;
+}
+
+.mail {
+    padding: 0px 60px;
 }

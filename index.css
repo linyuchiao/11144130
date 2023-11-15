@@ -8,11 +8,14 @@ body {
 }
 
 header {
-    background-color: #be95c4;
+
+    background: linear-gradient(rgba(216, 54, 216, 0.557), #be95c4);
     color: white;
     text-align: center;
     margin: 0px;
     padding: 20px;
+    font-size: larger;
+    word-spacing: 20px;
 }
 
 nav {
@@ -34,7 +37,7 @@ nav a:hover {
 
 footer {
     background-color: #be95c4;
-    color: #cdb4db;
+    color: #dbcae5;
     text-align: center;
     padding: 10px;
 }
@@ -57,6 +60,8 @@ img {
 
 h2 {
     text-align: center;
+    color: #8f19a2;
+    word-spacing: 30px;
 }
 
 .me {
@@ -75,15 +80,15 @@ h2 {
 
 .mail>a>img {
     width: 5%;
-    /* 設定圖片寬度為原尺寸的50% */
     height: auto;
 }
 
 .mylist {
-    background-color: #be95c4;
+    background-color: #d2add8;
     border-radius: 20px;
     padding: 50px;
     font-size: larger;
+    line-height: 30px;
 }
 
 
@@ -114,6 +119,11 @@ h2 {
     padding: 0px 20px;
 }
 
+b {
+    font-size: large;
+    color: #8f19a2;
+}
+
 .card>.title>h2 {
     text-align: center;
 }
@@ -126,6 +136,23 @@ h2 {
     width: 300px;
 }
 
+.txt_1>p {
+    font-weight: bold;
+}
+
+.txt>h3 {
+    color: black;
+}
+
 .mail {
-    padding: 0px 60px;
+    padding: 20px 60px;
+}
+
+
+h3 {
+    color: #8f19a2;
+}
+
+.call {
+    display: flex;
 }
